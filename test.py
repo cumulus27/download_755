@@ -19,7 +19,7 @@ from scrape_755 import Download_url
 
 if __name__ == '__main__':
     day_limit=7
-    namelist=['hori-miona','tashima-meru']
+    namelist=['hori-miona']
     for name_id in namelist:
         print('Downloading {}\'s pictures and movies now...'.format(name_id))
         my_crawl=Crawl(name_id,day_limit)
