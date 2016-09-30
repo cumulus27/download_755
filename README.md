@@ -7,3 +7,5 @@
 Download photos and videos from 755.
 
 python3 main.py
+
+Have fun!
