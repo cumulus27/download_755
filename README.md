@@ -6,4 +6,4 @@
 
 Download photos and videos from 755.
 
-python3 main.py.
+python3 main.py
