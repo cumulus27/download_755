@@ -5,3 +5,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/cumulus27/download_755/badge.svg?branch=master)](https://coveralls.io/github/cumulus27/download_755?branch=master)
 
 Download photos and videos from 755.
+
+python3 main.py.
