@@ -18,7 +18,8 @@ from scrape_755 import Download_url
 
 
 if __name__ == '__main__':
-    day_limit=14
+    day_limit=input('How many days of the post you want download? (max:30):   ')
+    day_limit=eval(day_limit)
     with open('name.txt') as name:
         namelist=name.readlines()
     for i in range(len(namelist)):
