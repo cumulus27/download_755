@@ -18,6 +18,7 @@ class Crawl:
     Crawl the url of phote and video
     """
     def __init__(self,name_id,day_limit):
+        global html
         self.now=time.time()
         self.time_limit=day_limit*86400
         self.url="https://api.7gogo.jp/web/v2/talks/{}/posts".format(name_id)
