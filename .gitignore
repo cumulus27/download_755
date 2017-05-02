@@ -137,5 +137,8 @@ ENV/
 
 
 .idea/
+!.idea/vcs.xml
+!.idea/inspectionProfiles/Project_Default.xml
+
 755-download/
 
